@@ -1,0 +1,23 @@
+Hello, enjoy my tetris game.
+
+First, I would like to acknowledge that I started from the sample 3 - javascript
+rotation code as presented in the tutorial by the TA. The code written for that 
+example is the work of those authors (The TA and whoever else worked on it). It
+was said on Piazza that this is permitted but I would like to mention that.
+
+The game completes steps a) though c) of the assignment fully.
+Tiles fall down, stack up, and there are key interactions. For d),
+    - Rows can be filled and will be removed
+    - The game terminates when a tile piece cannot be fit into the screen. 
+    - 'r' restarts the game 
+    - 'q' does nothing
+    - Right and left and up arrow keys do not affect the downward movement of the tile. 
+    - The down key doubles the speed of the game.
+
+Bonus:
+    - Score incremented and shown to user for each row cleared
+    - Pressing 'p' pauses the game
+    - Visual cue that the game is over
+
+Note: the canvas I made was a bit big for my surface pro screen. I would recommend
+putting it on a monitor to test. That worked for me with the bigger screen size.

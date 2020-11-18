@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tetris Time!</title>
+    <link rel="stylesheet" href="./webgl.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"
+      integrity="sha512-zhHQR0/H5SEBL3Wn6yYSaTTZej12z0hVZKOv3TwCUXT1z5qeqGcXJLLrbERYRScEDDpYIJhPC1fk31gqR783iQ=="
+      crossorigin="anonymous" defer>
+    </script>
+    <script src="draw-game.js" defer></script>
+    <script src="game-logic.js" defer></script>
+  </head>
+
+  <body>
+    <div>
+        <h4 style="height:10px">Welcome to tetris!</h4>
+        <div>
+            <h4 style="width: 200px; float:left">Your score is: </h4>
+            <h4 id="scoreValue" style="width: 400px; float:left"></h4>
+        </div>
+        
+        <h4 id="gameOver" style="width: 400px;"></h4>
+    </div>
+    <canvas id="glcanvas" width="600" height="900"></canvas>
+  </body>
+</html>
